@@ -7,7 +7,7 @@ namespace NetEasy
         public ClientConfiguration(string secretKey)
         {
             SecretKey = secretKey;
-            BaseUrl = Constants.BaseUrl;
+            BaseUrl = Constants.ProductionBaseUrl;
         }
 
         public string BaseUrl { get; private set; }

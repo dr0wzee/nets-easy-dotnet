@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>NetEasy</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/dr0wzee/nets-easy-dotnet</RepositoryUrl>
+    <Version>0.1.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
